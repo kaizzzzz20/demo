@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  redis:
+    host: 114.67.216.41
+    port: 6379
+    timeout: 100
+    jedis:
+      pool:
+        max-idle: 16
+        min-idle: 1
+
